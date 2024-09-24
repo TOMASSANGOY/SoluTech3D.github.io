@@ -1,6 +1,6 @@
 /* NAVBAR */
 .barra {
-    background-color: #08244b;
+    background-color: #88baff;
 }
 
 .logo {
@@ -25,7 +25,7 @@
     height: 100%;
     object-fit: contain;
     font-size: 17px;
-    color: rgb(136, 136, 136);
+    color: rgb(129, 129, 129);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 600;
 }
@@ -34,7 +34,7 @@
 @media only screen and (max-width: 1200px){
     .menu li a {
         font-size: 14px;
-        color: rgb(136, 136, 136);
+        color: rgb(129, 129, 129);
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-weight: 600;
     }
@@ -45,18 +45,21 @@
     
 }
 
-.navbar-toggler{
-    color: aliceblue;
-    background-color: white;
-}
 
 /* CARROUSEL */
 
 .cajaCarousel {
     width: 50%;
-    margin: 20px auto;
+    margin: auto;
+    border-radius: 50%;
+    height: 82vh;
+    align-content: center;
 }
 
-:root {
-    --bs-navbar-color: white
+.carousel{
+    border-radius: 50%;
+}
+
+.carouselImagenes {
+    border-radius: 0 40%;
 }
