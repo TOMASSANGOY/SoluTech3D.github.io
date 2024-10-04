@@ -12,57 +12,145 @@
   <title>SoluTech3D</title>
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg barra">
-    <div class="container-fluid logo">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img src="./fotos/Logo sin fondo.png" alt="LOGO"></a>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">INICIO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CATALOGO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">QUIENES SOMOS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CONTACTANOS</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <header>
+    <section id="menu">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand logo" href="./index.html"><img src="./fotos/Logo sin fondo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 letras">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Paginas/Medida_anillo.html">CATALOGO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Paginas/Tienda.html">QUIENES SOMOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Paginas/Contactanos.html">CONTACTO</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </section>
+</header>
 
-  <!-- BODY - CARROUSEL -->
-  <main>
-    <div class="cajaCarousel">
-      <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner carouselImagenes">
-          <div class="carousel-item active">
-            <img src="./fotos/pica.jpeg" class="d-inlineblock w-100" alt="FOTO PICA">
-          </div>
-          <div class="carousel-item">
-            <img src="./fotos/caja.jpeg" class="d-inlineblock w-100" alt="FOTO CAJA">
-          </div>
-          <div class="carousel-item">
-            <img src="./fotos/tregua.jpeg" class="d-inlineblock w-100" alt="FOTO TREGUA">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+  <!-- BODY -->
+<section id="hero">
+  <h1>IMPRESIONES EN 3D <br> PROTOTIPOS Y PRODUCTOS</h1>
+  <button>Información</button>
+</section>
+<section id="impresion-3d">
+    <h2>Impresión 3D y Diseño 3D en Córdoba para empresas</h2>
+    <h3>¡Envíos a todo el país!</h3>
+</section>
+<!-- SERVICIOS -->
+<section id="servicios">
+    <div class="container">
+        <h2>Servicios</h2>
+        <div class="servicios">
+    <div class="carta">
+        <h3>Diseño 3D</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia mollitia natus voluptate dolore, nostrum, consequuntur quasi deleniti, reiciendis modi error numquam libero aut laborum qui at animi cum minus.</p>
+        <button>Mas Info</button>
     </div>
-  </main>
+    <div class="carta">
+        <h3>Impresion 3D</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia mollitia natus voluptate dolore, nostrum, consequuntur quasi deleniti, reiciendis modi error numquam libero aut laborum qui at animi cum minus.</p>
+        <button>Mas Info</button>
+    </div>
+    <div class="carta">
+        <h3>Cotizaciones</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia mollitia natus voluptate dolore, nostrum, consequuntur quasi deleniti, reiciendis modi error numquam libero aut laborum qui at animi cum minus.</p>
+        <button>Mas Info</button>
+    </div>
+  </div>
+</div>
+</section>
+<!-- CARROUSEL - CATALOGO -->
+<section class="catalogo">
+  <h2>Catálogo de Productos</h2>
+  <div class="carousel">
+      <div class="carousel-track">
+          <div class="producto">
+              <img src="./fotos/caja.jpeg" alt="Producto 1">
+              <h3>Producto 1</h3>
+              <p>Precio: $1000</p>
+              <p>6 cuotas de $200</p>
+          </div>
+          <div class="producto">
+              <img src="./fotos/tregua.jpeg" alt="Producto 2">
+              <h3>Producto 2</h3>
+              <p>Precio: $1500</p>
+              <p>6 cuotas de $250</p>
+          </div>
+          <div class="producto">
+              <img src="./fotos/pica.jpeg" alt="Producto 3">
+              <h3>Producto 3</h3>
+              <p>Precio: $2000</p>
+              <p>6 cuotas de $333</p>
+          </div>
+          <div class="producto">
+              <img src="./fotos/caja.jpeg" alt="Producto 4">
+              <h3>Producto 4</h3>
+              <p>Precio: $2500</p>
+              <p>6 cuotas de $416</p>
+          </div>
+          <div class="producto">
+              <img src="./fotos/tregua.jpeg" alt="Producto 5">
+              <h3>Producto 5</h3>
+              <p>Precio: $3000</p>
+              <p>6 cuotas de $500</p>
+          </div>
+          <div class="producto">
+              <img src="./fotos/pica.jpeg" alt="Producto 6">
+              <h3>Producto 6</h3>
+              <p>Precio: $3500</p>
+              <p>6 cuotas de $583</p>
+          </div>
+          <div class="producto">
+              <img src="./fotos/caja.jpeg" alt="Producto 7">
+              <h3>Producto 7</h3>
+              <p>Precio: $4000</p>
+              <p>6 cuotas de $666</p>
+          </div>
+          <div class="producto">
+              <img src="./fotos/tregua.jpeg" alt="Producto 8">
+              <h3>Producto 8</h3>
+              <p>Precio: $4500</p>
+              <p>6 cuotas de $750</p>
+          </div>
+      </div>
+  </div>
+    <button class="verMas">VER MAS</button>
+</section>
+<!-- QUIENES SOMOS -->
+<section id="quienes-somos">
+    <div class="container">
+    <div class="img-contaniner"></div>
+    <div class="texto">
+    <h2>Quienes Somos</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolorum sit corporis voluptates eos a eum dolores placeat, qui enim consequatur, minus consequuntur amet temporibus obcaecati, nobis autem quas ea.</p>
+    <button>Mas informacion</button>
+</div>
+</div>
+</section>
+
+<section id="clientes">
+    <h2>+4000 clientes felices</h2>
+</section>
+
+<footer>
+    <div class="container">
+    <p>&copy; SoluTech3D 2024</p>
+</div>
+</footer>
 <!-- JS BOOTSTRAP -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
